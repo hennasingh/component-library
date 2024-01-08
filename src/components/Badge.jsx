@@ -9,9 +9,9 @@ export default function Badges({style, variant}) {
     const formatStyle = style[0].toUpperCase() + style.slice(1)
     
     return (
-        <main>
-            <p>{formatVariant} - {formatStyle}</p>
+        <div>
+            <p className="p-variant">{formatVariant} - {formatStyle}</p>
             <button className={allClasses}>Badge</button>
-        </main>
+        </div>
     )
 }

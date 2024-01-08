@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
 }
 
-section {
+.section-squares, .section-pills {
   display: flex;
   align-items:start;
   justify-content: flex-end;
@@ -42,10 +42,11 @@ button {
   cursor: pointer;
 }
 
-p {
+.p-variant {
   font-size:0.6rem;
   margin-bottom: 0.3em;
   color: #5E5D5D;
+  text-align: left;
 }
 
 button.button-square {
@@ -56,42 +57,126 @@ button.button-pill {
   border-radius: 2em;
 }
 
-button.button-gray{
+button.button-gray {
   background-color: #F3F4F6;
   color:#1F2937;
 }
 
-button.button-red{
+button.button-red {
   background-color: #FEE2E2;
   color:#991B1B;
 }
 
-button.button-yellow{
+button.button-yellow {
   background-color: #FEF3C7;
   color:#92400E;
 }
 
-button.button-green{
+button.button-green {
   background-color: #D1FAE5;
   color:#065F46;
 }
 
-button.button-blue{
+button.button-blue {
   background-color: #DBEAFE;
   color:#1E40AF;
 }
 
-button.button-indigo{
+button.button-indigo {
   background-color: #E0E7FF;
   color:#3730A3;
 }
 
-button.button-purple{
+button.button-purple {
   background-color: #EDE9FE;
   color:#5B21B6;
 }
 
-button.button-pink{
+button.button-pink {
   background-color: #FCE7F3;
   color:#9D174D;
+}
+
+/**
+* Banner Styles
+*/
+.section-banners {
+  display: grid;
+  grid-template-columns: auto 3fr 2fr;
+  align-items: end;
+  gap:1.4em;
+}
+
+.h2-banner {
+  text-align: left;
+}
+
+.h2-variant-banner {
+  align-self: center;
+}
+
+.banner {
+  padding: 0 1em 0.3em;
+  border-radius: 6px;
+  font-size:0.8rem;
+}
+
+.div-banner {
+  display: flex;
+  align-items: center;
+  gap:1em;
+}
+
+.success {
+  color: #34D399;
+}
+
+.warning {
+  color: #FBBF24;
+}
+
+.error {
+  color: #F87171;
+}
+
+.neutral {
+  color: #60A5FA;
+}
+
+.p-banner {
+  margin-top: 0;
+  text-align: left;
+  margin-left: 1.6em;
+}
+
+.text-success {
+  color: #047857;
+}
+
+.text-warning, .text-error{
+  color: #B45309;
+}
+
+.text-neutral {
+  color: #1C51B9;
+}
+
+.banner.banner-success {
+ background-color: #ECFDF5;
+ color: #065F46;
+}
+
+.banner.banner-warning {
+  background-color: #FFFBEB;
+  color: #92400E;
+}
+
+.banner.banner-error {
+  background-color: #FEF2F2;
+  color: #92400E;
+}
+
+.banner.banner-neutral {
+  background-color: #EFF6FF;
+  color:#1E40AF;
 }
