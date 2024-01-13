@@ -116,7 +116,7 @@ button.button-pink {
 }
 
 .banner {
-  padding: 0 1em 0.3em;
+  padding: 0 1em 0;
   border-radius: 6px;
   font-size:0.8rem;
 }
@@ -187,4 +187,49 @@ button.button-pink {
 .banner.banner-neutral {
   background-color: #EFF6FF;
   color:#1E40AF;
+}
+
+/***
+** CARDS
+*/
+
+.section-cards {
+  margin-top:4em;
+}
+
+.card-upload svg {
+  height:24px;
+  width:24px;
+  color:white;
+  margin-top: 0.8em;
+}
+
+.card-body {
+  position:relative;
+  max-width: 300px;
+  margin:0 auto;
+  background-color:#F9FAFB;
+  padding: 2em 4em;
+  border-radius: 0px;
+  color:#111827;
+}
+
+.card-upload{
+  height:48px;
+  width: 50px;
+  margin:0 auto ;
+  border-radius: 8px;
+  background-color:#3F75FE;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.card-description {
+  color:#6B7280;
+}
+
+.card-body:hover{
+  box-shadow: 2px 2px 4px 1px #6B7280;
 }

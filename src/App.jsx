@@ -2,6 +2,9 @@ import Badge from './components/Badge'
 import Banner from './components/Banner/Banner'
 import BannerTitle from './components/Banner/BannerTitle'
 import BannerDescription from './components/Banner/BannerDescription'
+import Card from './components/Card/Card'
+import CardTitle from './components/Card/CardTitle'
+import CardDescription from './components/Card/CardDescription'
 import './App.css'
 
 function App() {
@@ -69,6 +72,14 @@ function App() {
           <Banner variant="neutral">
           <BannerTitle>Update available</BannerTitle>
           </Banner>
+      </section>
+      <h1>Cards</h1>
+      <section className='section-cards'>
+        <Card>
+          <CardTitle>Easy Deployment</CardTitle>
+          <CardDescription>Ac tincident sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis</CardDescription>
+        </Card>
+
       </section>
     </main>
   )
