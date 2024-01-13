@@ -204,8 +204,11 @@ button.button-pink {
   margin-top: 0.8em;
 }
 
-.card-body {
+.div-card {
   position:relative;
+}
+
+.card-body {
   max-width: 300px;
   margin:0 auto;
   background-color:#F9FAFB;
@@ -221,9 +224,8 @@ button.button-pink {
   border-radius: 8px;
   background-color:#3F75FE;
   position: absolute;
-  left: 50%;
-  z-index: 1;
-  transform: translateY(-50%);
+  left: 48%;
+  top: -20px;
 }
 
 .card-description {
