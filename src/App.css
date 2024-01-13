@@ -122,11 +122,14 @@ button.button-pink {
 }
 
 .div-banner {
-  display: flex;
-  align-items: center;
-  gap:1em;
+  display: grid;
+  grid-template-columns: 20px auto;
+
 }
 
+.success, .warning, .error, .neutral {
+  align-self: center;
+}
 .success {
   color: #34D399;
 }
@@ -143,10 +146,15 @@ button.button-pink {
   color: #60A5FA;
 }
 
-.p-banner {
+.p-title {
+  text-align: left;
+}
+
+.p-description {
   margin-top: 0;
   text-align: left;
   margin-left: 1.6em;
+  grid-column: span 2;
 }
 
 .text-success {

@@ -24,9 +24,11 @@ export default function Banner({children, variant}) {
         <div>
             <p className="p-variant">{variant} - {children.length > 1 ? "multiline" : "singleline"}</p>
             <div className={allClasses}>
-                <div className="div-banner">
-                    {iconType}
-                    {children}
+                <div>
+                    <div className="div-banner">
+                        {iconType}
+                        {children}
+                    </div>           
                 </div>
             </div>
         </div>

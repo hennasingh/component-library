@@ -1,6 +1,7 @@
 import Badge from './components/Badge'
 import Banner from './components/Banner/Banner'
 import BannerTitle from './components/Banner/BannerTitle'
+import BannerDescription from './components/Banner/BannerDescription'
 import './App.css'
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
         <h2 className="h2-variant-banner">Success</h2>
           <Banner variant="success">
               <BannerTitle>Congratulations!</BannerTitle>
-              <p className="p-banner text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+              <BannerDescription variant='success'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</BannerDescription>
           </Banner>
           <Banner variant="success">
              <BannerTitle>Congratulations!</BannerTitle>
@@ -47,7 +48,7 @@ function App() {
           <h2 className="h2-variant-banner">Warning</h2>
           <Banner variant="warning">
             <BannerTitle>Attention</BannerTitle>
-              <p className="p-banner text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+              <BannerDescription variant='warning'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</BannerDescription>
           </Banner>
           <Banner variant="warning">
             <BannerTitle>Attention</BannerTitle>
@@ -55,7 +56,7 @@ function App() {
           <h2 className="h2-variant-banner">Error</h2>
           <Banner variant="error">
             <BannerTitle>There is a problem with your application</BannerTitle>
-              <p className="p-banner text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+              <BannerDescription variant='error'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</BannerDescription>
           </Banner>
           <Banner variant="error">
              <BannerTitle>There is a problem with your application</BannerTitle>
@@ -63,7 +64,7 @@ function App() {
           <h2 className="h2-variant-banner">Neutral</h2>
           <Banner variant="neutral">
               <BannerTitle>Update available</BannerTitle>
-              <p className="p-banner text-neutral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+              <BannerDescription variant='neutral'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</BannerDescription>
           </Banner>
           <Banner variant="neutral">
           <BannerTitle>Update available</BannerTitle>
