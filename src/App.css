@@ -235,3 +235,43 @@ button.button-pink {
 .card-body:hover{
   box-shadow: 2px 2px 4px 1px #6B7280;
 }
+
+/**
+* Testimonial
+*/
+
+.section-testimonials {
+  margin-top: 4em;
+}
+
+.testimonial-div {
+  display: flex;
+  background-color: #2545B8 ;
+  align-items: center;
+  max-width: 1000px;
+  height: 380px;
+  margin:0 auto;
+
+}
+
+.testimonial-div img{
+  width: 400px;
+  height: 460px;
+  margin-left: 2em;
+  margin-top:2.5em
+}
+
+.testimonial-body {
+  text-align: start;
+  color: #FFFFFF;
+  margin-right: 2em;
+}
+.testimonial-body svg {
+  width: 50px;
+  height: 50px;
+  opacity: 25%;
+}
+
+.p-testimonial-icon {
+  font-size: 1.2rem;
+}

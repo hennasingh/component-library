@@ -5,6 +5,9 @@ import BannerDescription from './components/Banner/BannerDescription'
 import Card from './components/Card/Card'
 import CardTitle from './components/Card/CardTitle'
 import CardDescription from './components/Card/CardDescription'
+import Testimonial from './components/Testimonial/Testimonial'
+import TestimonialBody from './components/Testimonial/TestimonialBody'
+import Image from './assets/images/testimonialIcon.png'
 import './App.css'
 
 function App() {
@@ -79,6 +82,20 @@ function App() {
           <CardTitle>Easy Deployment</CardTitle>
           <CardDescription>Ac tincident sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis</CardDescription>
         </Card>
+      </section>
+      <h1>Testimonials</h1>
+      <section className='section-testimonials'>
+          <Testimonial>
+            <TestimonialBody icon={Image}>
+                <p className='p-testimonial-icon'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla
+                vitae laoreet augue.Amet feugiat est integer dolor auctor adipiscing nunc urna,sit.
+                </p>
+                <p>
+                  May Andersons <span>Workcation, CTO</span>
+                </p>
+            </TestimonialBody>
+          </Testimonial>
 
       </section>
     </main>
