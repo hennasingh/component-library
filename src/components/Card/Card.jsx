@@ -1,12 +1,12 @@
 import React from 'react'
-import { IoCloudUploadOutline } from "react-icons/io5";
 
-export default function Card({children}) {
+
+export default function Card({children, icon}) {
 
     return (
         <div className="div-card">
             <div className='card-upload'>
-                <IoCloudUploadOutline />   
+                {icon}
             </div>              
             <div className='card-body' >
                 {children}

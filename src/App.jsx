@@ -8,6 +8,7 @@ import CardDescription from './components/Card/CardDescription'
 import Testimonial from './components/Testimonial/Testimonial'
 import TestimonialBody from './components/Testimonial/TestimonialBody'
 import Image from './assets/images/testimonialIcon.png'
+import { IoCloudUploadOutline } from "react-icons/io5";
 import './App.css'
 
 function App() {
@@ -78,7 +79,7 @@ function App() {
       </section>
       <h1>Cards</h1>
       <section className='section-cards'>
-        <Card>
+        <Card icon={ <IoCloudUploadOutline />  }>
           <CardTitle>Easy Deployment</CardTitle>
           <CardDescription>Ac tincident sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis</CardDescription>
         </Card>
